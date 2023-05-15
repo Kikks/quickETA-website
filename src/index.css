@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #25282c;
+}
+
+.max-w-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
